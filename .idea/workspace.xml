@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="749e9c40-23eb-4e8d-ba75-185e2efa1a49" name="Changes" comment="DSA practice">
-      <change afterPath="$PROJECT_DIR$/src/must do" afterDir="false" />
+    <list default="true" id="749e9c40-23eb-4e8d-ba75-185e2efa1a49" name="Changes" comment="I need to master java backend dev">
+      <change afterPath="$PROJECT_DIR$/src/ParentTypeChildObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/must do" beforeDir="false" afterPath="$PROJECT_DIR$/src/must do" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MyWorkspaces/DSAMANOJ/src/oldPractice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyWorkspaces/STS_AngularProjects&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/MyWorkspaces/DSAMANOJ/src/Main.java&quot;
   }
 }</component>
@@ -43,7 +44,7 @@
       <recent name="C:\MyWorkspaces\DSAMANOJ\src\oldPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DefaultStaticImpl">
+  <component name="RunManager" selected="Application.ParentTypeChildObject">
     <configuration name="DefaultStaticImpl (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zohointerview.DefaultStaticImpl" />
       <module name="DSAMANOJ" />
@@ -70,6 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParentTypeChildObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ParentTypeChildObject" />
+      <module name="DSAMANOJ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="DSAMANOJ" />
@@ -92,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParentTypeChildObject" />
         <item itemvalue="Application.DefaultStaticImpl" />
         <item itemvalue="Application.DefaultStaticImpl (1)" />
         <item itemvalue="Application.Zoho" />
@@ -115,12 +124,20 @@
       <option name="project" value="LOCAL" />
       <updated>1707643739410</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I need to master java backend dev">
+      <created>1708853241587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708853241587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSA practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA practice" />
+    <MESSAGE value="I need to master java backend dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="I need to master java backend dev" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
