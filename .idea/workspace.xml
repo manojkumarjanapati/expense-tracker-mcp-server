@@ -4,39 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="749e9c40-23eb-4e8d-ba75-185e2efa1a49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSAMANOJ.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/analysisOfAlgorithms/AnalysisOfAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/ArraysPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bitmagic/BitMagic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashing/Hashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mathematics/Mathematics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrix/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/bitmanipulation/Bitwise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/bitmanipulation/CombinationsUsingBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/bitmanipulation/CountBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/hackerrank/HackRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/manojdsajava/ComputingPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/manojdsajava/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/manojdsajava/IsPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/manojdsajava/Mathematics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/manojdsajava/NoOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/manojdsajava/Progresssions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/manojdsajava/SieveOfEratosthenes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/manojdsajava/TrailingZerosInFactorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/reccursion/ReccursionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/reccursion/RecurAssignmentProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/reccursion/RecurProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldPractice/reccursion/RopeCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/Searching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/Sorting.java" afterDir="false" />
+    <list default="true" id="749e9c40-23eb-4e8d-ba75-185e2efa1a49" name="Changes" comment="DSA practice">
+      <change afterPath="$PROJECT_DIR$/src/must do" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +43,33 @@
       <recent name="C:\MyWorkspaces\DSAMANOJ\src\oldPractice" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DefaultStaticImpl">
+    <configuration name="DefaultStaticImpl (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zohointerview.DefaultStaticImpl" />
+      <module name="DSAMANOJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zohointerview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultStaticImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zohointerview.DefaultStaticImpl" />
+      <module name="DSAMANOJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zohointerview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="DSAMANOJ" />
@@ -80,8 +77,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zoho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zohoexam.Zoho" />
+      <module name="DSAMANOJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zohoexam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefaultStaticImpl" />
+        <item itemvalue="Application.DefaultStaticImpl (1)" />
+        <item itemvalue="Application.Zoho" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -95,7 +108,19 @@
       <option name="presentableId" value="Default" />
       <updated>1686373520801</updated>
     </task>
+    <task id="LOCAL-00001" summary="DSA practice">
+      <created>1707643739410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707643739410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DSA practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
