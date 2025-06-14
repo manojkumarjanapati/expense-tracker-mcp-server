@@ -428,8 +428,6 @@ public class Searching {
     public static double medianOfTwoSortedArrays(int[] arr1, int[] arr2){
         int n = arr1.length;
         int m = arr2.length;
-
-
         // assuming n<=m, we do binary search algo in smaller length array
         int start = 0;
         int end = n;
@@ -452,9 +450,7 @@ public class Searching {
             }
             else if(max1 > min2) end = mid1-1;
             else start = mid1 + 1;
-
         }
-
         return -1;
     }
 
@@ -575,7 +571,7 @@ public class Searching {
         System.out.println(searchInInfiniteSizedSortedArrayNaive(bigArray,25));
         System.out.println(searchInInfiniteSizedSortedArray(bigArray,20));
 
-        int[] sortedRotated = {10,20,40,60,5,8};
+        int[] sortedRotated = {1,0,1,1,1};
         System.out.println(searchInSortedRotatedArray(sortedRotated,20));
         System.out.println(searchInSortedRotatedArrayAuthor(sortedRotated,20));
 
@@ -607,7 +603,5 @@ public class Searching {
 
         int[] arr9 = {2,3,5,7,9,11,34,67,99};
         System.out.println(ternarySearch(arr9,11));
-
-
     }
 }

@@ -5,8 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="749e9c40-23eb-4e8d-ba75-185e2efa1a49" name="Changes" comment="I need to master java backend dev">
-      <change afterPath="$PROJECT_DIR$/src/ParentTypeChildObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/analysisOfAlgorithms/AnalysisOfAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/arrays/ArraysPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/backtracking/Backtracking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/binarysearchtree/BSTDSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/bitmagic/BitMagic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/deque/DequeDSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/dynamicprogramming/DP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/graph/GraphDSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/greedy/Greedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/haritha/Infosys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/haritha/Juspay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/haritha/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/hashing/Hashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/heap/HeapDSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/linkedlist/DoublyLinkedListDsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/linkedlist/LinkedListDsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/mathematics/Mathematics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/matrix/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/bitmanipulation/Bitwise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/bitmanipulation/CombinationsUsingBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/bitmanipulation/CountBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/hackerrank/HackRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/ComputingPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/IsPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/Mathematics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/NoOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/Progresssions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/SieveOfEratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/TrailingZerosInFactorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/reccursion/ReccursionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/reccursion/RecurAssignmentProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/reccursion/RecurProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/reccursion/RopeCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/queue/QueueDSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/recursion/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/searching/Searching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/sorting/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/stack/StackDSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/strings/StringDSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/trees/TreeDSA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParentTypeChildObject.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/must do" beforeDir="false" afterPath="$PROJECT_DIR$/src/must do" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,32 +69,70 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nayuduganasai&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/manojkumarjanapati/DSA.git&quot;,
+    &quot;accountId&quot;: &quot;6192400c-7206-4405-9a4b-c378465019dc&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2R04AT9O1eoaqBHTe31Qa74EoYZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MyWorkspaces/STS_AngularProjects&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/MyWorkspaces/DSAMANOJ/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Infosys.executor": "Run",
+    "Application.Infosys2.executor": "Run",
+    "Application.LockandUnlock.executor": "Run",
+    "Application.Node.executor": "Run",
+    "Application.Zoho (1).executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/MyWorkspaces/DSAMANOJ/src",
+    "onboarding.tips.debug.path": "C:/MyWorkspaces/DSAMANOJ/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyWorkspaces\DSAMANOJ\src" />
       <recent name="C:\MyWorkspaces\DSAMANOJ\src\oldPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParentTypeChildObject">
-    <configuration name="DefaultStaticImpl (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zohointerview.DefaultStaticImpl" />
+  <component name="RunManager" selected="Application.LockandUnlock">
+    <configuration name="Infosys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Infosys" />
+      <module name="DSAMANOJ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Infosys2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Infosys2" />
+      <module name="DSAMANOJ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockandUnlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="juspay.LockandUnlock" />
       <module name="DSAMANOJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zohointerview.*" />
+          <option name="PATTERN" value="juspay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,15 +140,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultStaticImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zohointerview.DefaultStaticImpl" />
+    <configuration name="Node" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mathematics.Node" />
       <module name="DSAMANOJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zohointerview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,37 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="DSAMANOJ" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zoho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zohoexam.Zoho" />
-      <module name="DSAMANOJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zohoexam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LockandUnlock" />
+        <item itemvalue="Application.Infosys2" />
+        <item itemvalue="Application.Infosys" />
+        <item itemvalue="Application.Node" />
         <item itemvalue="Application.ParentTypeChildObject" />
-        <item itemvalue="Application.DefaultStaticImpl" />
-        <item itemvalue="Application.DefaultStaticImpl (1)" />
-        <item itemvalue="Application.Zoho" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\MANOJ KUMAR JANAPATI\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="749e9c40-23eb-4e8d-ba75-185e2efa1a49" name="Changes" comment="" />
@@ -131,8 +190,26 @@
       <option name="project" value="LOCAL" />
       <updated>1708853241587</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I need to master java backend dev">
+      <created>1708875133090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708875133090</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSA practice" />
@@ -144,7 +221,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
