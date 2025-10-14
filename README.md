@@ -20,8 +20,8 @@ A Model Context Protocol (MCP) server that enables AI assistants like Claude to 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/expense-tracker-mcp.git
-cd expense-tracker-mcp
+git clone https://github.com/Khushi-c-sharma/expense-tracker-mcp-server.git
+cd expense-tracker-mcp-server
 
 # Install uv if you haven't already
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -35,6 +35,7 @@ uv sync
 Add the server to your Claude Desktop configuration file:
 
 **MacOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+
 **Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
 
 ```json
@@ -179,3 +180,4 @@ If you encounter any issues or have questions, please [open an issue](https://gi
 ---
 
 **Made with ❤️ for better expense tracking through AI**
+
