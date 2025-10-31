@@ -1,10 +1,41 @@
 package matrix;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Iterator;
 
 public class Matrix {
+
+    public static int medianOfRowWisedSortedMatrix(int[][] mat){
+        int nr = mat.length;
+        int nc = mat[0].length;
+
+        int min = mat[0][0];
+        int max = mat[0][nc-1];
+        for(int row = 1; row<nr; row++){
+            min = Math.min(min,mat[row][0]);
+            max = Math.max(max,mat[row][nc-1]);
+        }
+
+        int medPos = (nr*nc + 1)/2;
+
+        while(min < max){
+            int mid = (min+max)/2;
+            int midPos = 0;
+
+            for(int row = 0; row<nr; row++){
+                int pos = Arrays.binarySearch(mat[row],mid) + 1;
+                midPos += Math.abs(pos);
+            }
+
+            if(midPos < medPos){
+                min = mid+1;
+            }
+            else{
+                max = mid;
+            }
+        }
+
+        return min;
+    }
 
     public static void printSnakePatternMatrix(int[][] mat){
 
@@ -211,5 +242,9 @@ public class Matrix {
 
         int[][] mat5 = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
         searchInRowWiseSortedNColumnWiseSortedMatrix(mat5,13);
+
+        int[][] mat10 = {{5,10,20,30,40},{1,2,3,4,6},{11,13,15,17,19}};
+        System.out.println(medianOfRowWisedSortedMatrix(mat10));
+
     }
 }
