@@ -4,54 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="749e9c40-23eb-4e8d-ba75-185e2efa1a49" name="Changes" comment="I need to master java backend dev">
-      <change afterPath="$PROJECT_DIR$/src/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/analysisOfAlgorithms/AnalysisOfAlgorithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/arrays/ArraysPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/backtracking/Backtracking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/binarysearchtree/BSTDSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/bitmagic/BitMagic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/deque/DequeDSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/dynamicprogramming/DP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/graph/GraphDSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/greedy/Greedy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/haritha/Infosys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/haritha/Juspay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/haritha/notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/hashing/Hashing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/heap/HeapDSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/linkedlist/DoublyLinkedListDsa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/linkedlist/LinkedListDsa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/mathematics/Mathematics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/matrix/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/bitmanipulation/Bitwise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/bitmanipulation/CombinationsUsingBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/bitmanipulation/CountBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/hackerrank/HackRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/ComputingPower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/IsPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/Mathematics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/NoOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/Progresssions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/SieveOfEratosthenes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/manojdsajava/TrailingZerosInFactorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/reccursion/ReccursionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/reccursion/RecurAssignmentProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/reccursion/RecurProblems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/oldPractice/reccursion/RopeCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/queue/QueueDSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/recursion/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/searching/Searching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/sorting/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/stack/StackDSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/strings/StringDSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/trees/TreeDSA.java" afterDir="false" />
+    <list default="true" id="749e9c40-23eb-4e8d-ba75-185e2efa1a49" name="Changes" comment="DSA files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParentTypeChildObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/must do" beforeDir="false" afterPath="$PROJECT_DIR$/src/must do" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +35,9 @@
     &quot;accountId&quot;: &quot;6192400c-7206-4405-9a4b-c378465019dc&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -90,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Infosys.executor": "Run",
-    "Application.Infosys2.executor": "Run",
-    "Application.LockandUnlock.executor": "Run",
-    "Application.Node.executor": "Run",
-    "Application.Zoho (1).executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/MyWorkspaces/DSAMANOJ/src",
-    "onboarding.tips.debug.path": "C:/MyWorkspaces/DSAMANOJ/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Infosys.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Infosys2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockandUnlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Node.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Zoho (1).executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyWorkspaces/DSAMANOJ/src&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/MyWorkspaces/DSAMANOJ/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MyWorkspaces\DSAMANOJ\src" />
@@ -197,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708875133090</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DSA files added">
+      <option name="closed" value="true" />
+      <created>1749885617209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749885617209</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,17 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSA practice" />
     <MESSAGE value="I need to master java backend dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="I need to master java backend dev" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="DSA files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA files added" />
   </component>
 </project>
